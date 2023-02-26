@@ -1,0 +1,48 @@
+.header {
+    margin: 0 2.5rem;
+    padding: .5rem 0;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+    height: 100px;
+}
+
+
+.headerLeft{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.Link-h1{
+    text-decoration: none;
+    list-style: none;
+}
+.Titulo-H{
+    text-decoration: none;
+    color: rgb(243, 239, 239);
+    list-style: none;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 40px;
+}
+
+@media screen and (min-width:100px) and (max-width:1000px){
+  
+.header{
+    display: flex;
+    height: 200px;
+}
+.headerLeft{
+    display: flex;
+    flex-direction: column;
+}
+
+.Home-Serarch{
+    margin-top: 15px;
+}
+  .Grid{
+    display: flex;
+    flex-direction: column;
+  }
+}

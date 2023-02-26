@@ -1,0 +1,48 @@
+.App {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+
+.Cont-Select{
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+.Letras-selex{
+ background-color: black;
+  border: none;
+  color:aliceblue;
+  
+}
+.Buscar-input{
+  background-color: rgb(194, 191, 191);
+  border: none;
+  padding: 5px 5px;
+  border-radius: 5px 0px 0px 5px;
+  
+}
+
+.boton-buscar{
+  background-color: rgb(139, 144, 148);
+  padding: 5px;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  color: aliceblue;
+
+}
+
+.boton-buscar:hover{
+  background-color: rgb(12, 37, 150);
+  cursor: pointer;
+
+}
+
+
+.Link-h1-fOOTER{
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
